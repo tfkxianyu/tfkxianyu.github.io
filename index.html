@@ -7,9 +7,9 @@
     <title>雾笙云引导站 - 雾笙云旗下站点导航</title>
     <meta name="keywords" content="IP地址查询,IP查询API,雾笙云API,在线工具箱,雾笙云引导站">
     <meta name="description" content="雾笙云引导站是雾笙云旗下站点的引导站，简洁高效！">
-    <meta name="robots" content="index, follow"> 
-    <meta name="author" content="雾笙云导航"> 
-    <meta property="og:title" content="雾笙云引导站 - 雾笙云旗下站点导航"> 
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="雾笙云导航">
+    <meta property="og:title" content="雾笙云引导站 - 雾笙云旗下站点导航">
     <meta property="og:description" content="雾笙云引导站是雾笙云旗下站点的引导站，简洁高效！">
     <meta property="og:type" content="website">
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
@@ -32,7 +32,6 @@
             padding-top: 7rem;
         }
 
-        /* ========== 头部导航栏美化 ========== */
         header {
             position: fixed;
             top: 0;
@@ -55,7 +54,6 @@
             justify-content: space-between;
         }
 
-        /* Logo区域美化 - 适配图片/Emoji图标 */
         .logo-box {
             display: flex;
             align-items: center;
@@ -72,13 +70,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden; /* 防止图片溢出 */
+            overflow: hidden;
         }
-        /* 通用图标图片样式 - 自适应大小 */
         .icon-img {
             width: 100%;
             height: 100%;
-            object-fit: contain; /* 保持图片比例 */
+            object-fit: contain;
         }
 
         .site-title {
@@ -89,7 +86,6 @@
             letter-spacing: 0.5px;
         }
 
-        /* 桌面端菜单美化 */
         .desktop-menu {
             display: flex;
             gap: 0.5rem;
@@ -126,7 +122,6 @@
             width: 100%;
         }
 
-        /* 汉堡按钮美化 */
         .mobile-menu-btn {
             display: none;
             background: #f9fafb;
@@ -157,7 +152,6 @@
             z-index: 998;
             margin: 0 8px;
             
-            /* 自然滑出动画 */
             transform: translateY(-10px);
             opacity: 0;
             visibility: hidden;
@@ -239,10 +233,9 @@
             color: #1f2937;
             display: flex;
             align-items: center;
-            gap: 0.75rem; /* 图标与文字间距 */
+            gap: 0.75rem;
         }
 
-        /* 分类图标容器 - 适配Emoji/图片 */
         .category-icon {
             font-size: 1.5rem;
             color: #3b82f6;
@@ -349,7 +342,6 @@
             text-align: center;
         }
 
-        /* 底部友链样式 */
         .footer-links {
             display: flex;
             flex-wrap: wrap;
@@ -372,7 +364,6 @@
             background: rgba(255, 255, 255, 0.1);
         }
 
-        /* 响应式适配 */
         @media (max-width: 768px) {
             body {
                 padding-top: 5.5rem;
@@ -403,9 +394,8 @@
                 font-size: 1.2rem;
             }
             
-            /* 移动端菜单精准贴合导航栏 */
             .mobile-menu {
-                top: 5.5rem; /* 匹配移动端导航栏高度 */
+                top: 5.5rem;
                 margin: 0 4px;
             }
             
@@ -417,12 +407,10 @@
                 grid-template-columns: 1fr;
             }
 
-            /* 移动端底部友链换行 */
             .footer-links {
                 gap: 0.5rem;
             }
 
-            /* 移动端分类图标适配 */
             .category-icon {
                 width: 28px;
                 height: 28px;
@@ -441,20 +429,17 @@
             <h1 class="site-title">雾笙云引导站</h1>
         </div>
 
-        
         <nav class="desktop-menu">
             <a href="/" class="menu-item">首页</a>
             <a href="mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=3378457133" class="menu-item">联系我们</a>
             <a href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1087019798&card_type=group&source=qrcode" class="menu-item">加入群聊</a>
         </nav>
 
-        
         <button class="mobile-menu-btn" id="mobileMenuBtn">
             <i class="fa fa-bars"></i>
         </button>
     </div>
 
-    
     <nav class="mobile-menu" id="mobileMenu">
         <div class="mobile-menu-items">
             <a href="/" class="mobile-menu-item">
@@ -514,12 +499,24 @@
                     <span class="category-icon">
                         🔧                    </span>
                     常用网站                </h2>
-                <span class="link-count">共 1 个链接</span>
+                <span class="link-count">共 4 个链接</span>
             </div>
             <div class="nav-links">
                                                         <a href="http://tools.066766.xyz" class="nav-link" target="_blank" rel="noopener noreferrer">
                         <div class="link-name">IT工具</div>
-                        <div class="link-desc">超多实用IT工具在线使用</div>
+                        <div class="link-desc">超多实用站长IT工具在线使用</div>
+                    </a>
+                                        <a href="http://066766.xyz/web/wxltsc" class="nav-link" target="_blank" rel="noopener noreferrer">
+                        <div class="link-name">在线微信对话生成</div>
+                        <div class="link-desc">微信私聊/群聊记录以及聊天视频生成</div>
+                    </a>
+                                        <a href="http://066766.xyz/web/xyjjm/" class="nav-link" target="_blank" rel="noopener noreferrer">
+                        <div class="link-name">闲鱼密文转换</div>
+                        <div class="link-desc">闲鱼密文转换工具 | 防违规交流神器</div>
+                    </a>
+                                        <a href="http://066766.xyz/web/icosc/" class="nav-link" target="_blank" rel="noopener noreferrer">
+                        <div class="link-name">图片批量转换ICO工具</div>
+                        <div class="link-desc">图片批量转换ICO工具</div>
                     </a>
                                                 </div>
         </section>
@@ -527,7 +524,7 @@
             <div class="category-header">
                 <h2 class="category-name">
                     <span class="category-icon">
-                        📌                    </span>
+                        ������                    </span>
                     友链                </h2>
                 <span class="link-count">共 1 个链接</span>
             </div>
@@ -542,23 +539,9 @@
 
 <footer>
     <div class="footer-container">
-        
-                
-        <div class="footer-text">
+                <div class="footer-text">
             © 2026 雾笙云 保留所有权利        </div>
     </div>
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?5737670aba9d7ac686f3c3c60a0485d3";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
-
 </footer>
 
 <script>
@@ -567,12 +550,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const menu = document.getElementById('mobileMenu');
     const icon = btn.querySelector('i');
 
-    // 汉堡按钮点击事件
     btn.addEventListener('click', function(e) {
         e.stopPropagation();
         menu.classList.toggle('show');
         
-        // 切换图标
         if (menu.classList.contains('show')) {
             icon.classList.remove('fa-bars');
             icon.classList.add('fa-times');
@@ -582,10 +563,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 点击菜单内部不关闭
     menu.addEventListener('click', e => e.stopPropagation());
 
-    // 点击页面其他区域关闭菜单
     document.addEventListener('click', function() {
         if (menu.classList.contains('show')) {
             menu.classList.remove('show');
@@ -594,7 +573,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 滚动隐藏Header
     const header = document.querySelector('header');
     let lastScrollY = window.scrollY;
     
@@ -602,14 +580,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const currentScrollY = window.scrollY;
         
         if (currentScrollY > lastScrollY && currentScrollY > 100) {
-            // 下滑隐藏
             header.style.transform = 'translateY(-100%)';
-            // 同时关闭移动端菜单
             menu.classList.remove('show');
             icon.classList.remove('fa-times');
             icon.classList.add('fa-bars');
         } else {
-            // 上拉显示
             header.style.transform = 'translateY(0)';
         }
         
@@ -617,7 +592,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5737670aba9d7ac686f3c3c60a0485d3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </body>
 </html>
-
